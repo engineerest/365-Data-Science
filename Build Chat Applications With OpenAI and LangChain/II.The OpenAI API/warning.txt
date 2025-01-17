@@ -1,0 +1,13 @@
+completion = client.chat.completions.create(model='gpt-3.5-turbo', ...
+In this course the Instructor used the gpt-4,
+if you do the same, you would get 404 error.
+Because gpt-4 is paid model.
+I didn't find out the solution of this problem,
+however if you use the gpt-3.5-tubo model, you would get a 429 error.
+
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota,
+please check your plan and billing details. For more information on this error,
+read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.',
+'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+
+The 429 error about your billing plan. So, I don't know that we should do.

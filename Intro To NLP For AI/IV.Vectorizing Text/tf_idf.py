@@ -13,5 +13,5 @@ data =[
 tfidfvec = TfidfVectorizer()
 tfidfvec_fit = tfidfvec.fit_transform(data)
 
-tfidf_bag = pd.DataFrame(tfidfvec_fit.toarray(), columns=tfidfvec.get_feature_names_out)
+tfidf_bag = pd.DataFrame(tfidfvec_fit.toarray(), columns=tfidfvec.get_feature_names_out())
 print(tfidf_bag)

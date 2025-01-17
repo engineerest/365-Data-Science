@@ -1,0 +1,9 @@
+1. Join for the link https://platform.openai.com/
+2. Sign in your account
+3. If you signed in account, you would create a secret api key
+The link: https://platform.openai.com/settings/organization/api-keys
+4. Create new secret key. For e.g. name is "LangChain Project", set project like "Default project".
+5. Press the "Create secret key" button.
+6. When did you receive a key, copy them.
+
+If you lose your API key, it becomes invalid, and you must generate a new one.
